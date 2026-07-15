@@ -66,3 +66,6 @@ ceshi.txt
 ptz_precision_test.py
 test_pixel_path_functions.py
 
+
+
+!calib/imx334_85fov/calibration.npz
