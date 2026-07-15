@@ -23,6 +23,9 @@ tmp*/
 tmp_*/
 *.tmp
 
+# Runtime data directories
+data/
+
 # Logs and diagnostic dumps
 *.log
 *_diag.txt
@@ -62,3 +65,4 @@ ch36
 ceshi.txt
 ptz_precision_test.py
 test_pixel_path_functions.py
+
