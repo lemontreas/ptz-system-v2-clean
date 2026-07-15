@@ -1,0 +1,5 @@
+# S1 全景图采样 - 摄像头与拼接依赖（Linux 设备）
+# 安装: pip install -r requirements_panorama.txt
+# 注：opencv-contrib-python 已包含 opencv 核心 + Stitcher，二选一即可
+
+opencv-contrib-python>=4.0

@@ -1,0 +1,64 @@
+﻿# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.codex_pycache/
+
+# Local agent/editor state
+.agents/
+.claude/
+.cursor/
+.codex/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Tests and temporary workspaces
+tests/
+.test_tmp/
+.tmp_correction_test/
+tmp*/
+tmp_*/
+*.tmp
+
+# Logs and diagnostic dumps
+*.log
+*_diag.txt
+*_timing.jsonl
+full_scan_diag.txt
+tmp_dwell.txt
+test_guide.txt
+
+# Packet captures and RF/test artifacts
+*.pcap
+*.pcapng
+
+# Images and panorama/runtime outputs
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+mp_*/
+*_pano_*.jpg
+cv2_pano_*.jpg
+hugin/hugin_pano_*/
+hugin/panorama_*
+
+# Large generated mapping/data products
+*.sqlite
+*.db
+*.csv
+*.npz
+*.npy
+*.pmap
+*.pcand
+
+# Local ad-hoc files
+1.json
+ch36
+ceshi.txt
+ptz_precision_test.py
+test_pixel_path_functions.py
